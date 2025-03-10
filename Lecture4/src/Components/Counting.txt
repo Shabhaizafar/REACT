@@ -1,0 +1,25 @@
+var btn = 0;
+
+function Counting() {
+    return (
+        <>
+            <div className="counter-container">
+                <h1>Counter</h1>
+                <div className="counter-display">
+                    <span id="count">{btn}</span>
+                    
+                    <button id="decrease" className="counter-button" onClick={()=>{
+                        btn--;
+                        document.querySelector("#count").innerHTML = btn;
+                    }}>-</button>
+                    <button id="increase" className="counter-button"  onClick={()=>{
+                        btn++;
+                        document.querySelector("#count").innerHTML = btn;
+                    }}>+</button>
+                </div>
+                
+            </div>
+        </>
+    )
+}
+export default Counting;

@@ -1,0 +1,33 @@
+=> Web Devlopment :  (Software Enginner/Developer)
+        - Website (collection of Webpages{HTML File}).
+                - static Data.
+        - WebApp.
+                - Dynamic Data.
+
+    FRONT-END  : HTML/CSS/JS + reactjs
+        front-end Developer
+        front-end engineer
+        
+
+    BACK END : NodeJS,JAVA,Python,C++ etc
+        Backend Developer
+        Backend engineer
+
+    DB : database 
+        - SQL
+        - MONGODB
+
+    FULL STACK : frontend+Backend + DB
+
+
+
+MERN Stack 
+
+M - MongoDB (DB)
+E - ExpressJs (Connection - Backend)
+R - ReactJs  (frontend)  + vite
+N - NodeJs  (Backend)
+
+
+
+ReactJs : single page Application
