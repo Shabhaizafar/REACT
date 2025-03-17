@@ -1,3 +1,19 @@
+import './App.css'
+import ClassData from './ClassData';
+function App(){
+  const d = new ClassData("Zafar","Shah");
+  return (
+    <>
+      <h1>Hello Everyone !!!</h1>
+      {d.display()}
+      {/* <ClassData value1="Zafar" value2="Shabhai"/> */}
+    </>
+  )
+}
+
+export default App;
+
+/*
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -37,3 +53,5 @@ function App() {
 }
 
 export default App
+
+*/ 
