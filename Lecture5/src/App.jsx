@@ -1,4 +1,18 @@
 import './App.css'
+import Events from './Events';
+function App(){
+  return (
+    <>  
+      <h1>Events</h1>
+      {/* <Events></Events> */}
+      <Events/>
+    </>
+  )
+}
+export default App;
+
+/*
+import './App.css'
 import ClassData from './ClassData';
 function App(){
   const d = new ClassData("Zafar","Shah");
@@ -6,12 +20,15 @@ function App(){
     <>
       <h1>Hello Everyone !!!</h1>
       {d.display()}
-      {/* <ClassData value1="Zafar" value2="Shabhai"/> */}
+      { <ClassData value1="Zafar" value2="Shabhai"/> }
     </>
   )
 }
 
 export default App;
+
+*/
+
 
 /*
 import { useState } from 'react'
