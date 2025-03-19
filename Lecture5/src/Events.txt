@@ -24,7 +24,7 @@ onKeyUp	                    Fires when a key is released.
 3. Form Events : 
 
 Event	                        Description
-onChange	                Fires when the value of an input element changes.
+onChange	                Fires when the value of an input element changes.  textarea
 onSubmit	                Fires when a form is submitted.   //type=submit   button input 
 onFocus	                    Fires when an element receives focus.
 onBlur	                    Fires when an element loses focus.
@@ -39,13 +39,6 @@ Event	                        Description
 onCopy	                    Fires when the user copies content.
 onCut	                    Fires when the user cuts content.
 onPaste	                    Fires when the user pastes content.
-
-
-5. Focus Events : 
-
-Event	                        Description
-onFocus	                    Fires when an element gains focus.
-onBlur	                    Fires when an element loses focus.
 
 
 6. Touch Events (For mobile devices) : 
@@ -66,10 +59,10 @@ onDragEnd	                Fires when the user stops dragging an element.
 onDragEnter	                Fires when a dragged item enters a drop target.
 onDragLeave	                Fires when a dragged item leaves a drop target.
 onDragOver	                Fires when a dragged item is over a drop target.
-onDrop	                    Fires when a dragged item is dropped.
+onDrop	                    Fires when a dragged item is dropped.                        (Remaining)
 
-
-8. Media Events : 
+(Homework)    (video/Audio)
+8. Media Events :                     
 Event	                        Description
 onPlay	                    Fires when media starts playing.
 onPause	                    Fires when media is paused.
@@ -77,7 +70,7 @@ onEnded	                    Fires when media playback ends.
 onTimeUpdate	            Fires when playback position changes.
 onVolumeChange	            Fires when volume is changed.
 
-
+(Homework)    (Animation)
 9. Animation & Transition Events : 
 
 Event	                        Description
@@ -87,6 +80,7 @@ onAnimationIteration	    Fires when an animation repeats.
 onTransitionEnd	            Fires when a CSS transition ends.
 
 
+(Homework)    (textarea)
 10. Other Miscellaneous Events :
 
 Event	                        Description

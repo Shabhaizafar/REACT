@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    position: relative;
+    
+}
+.drop-zone {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #000;
+}
+.animation:hover{   
+    width: 200px;
+    transition: all 2s;
+}
+/* .animation {
+    animation-name: box;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes box {
+    from{
+        left: 0px;
+    }
+    to{
+        left: 200px;
+    }
+} */
