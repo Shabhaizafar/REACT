@@ -1,35 +1,32 @@
 📑1. Prerequisites:-
     Before diving into React, ensure you have a strong foundation in:
 
--HTML, CSS, and JavaScript (ES6+):-
--JavaScript Concepts::-
-  - Arrow functions
-  - Destructuring
-  - Spread & Rest operators
-  - Promises & Async/Await
-  - Fetch API
-  - Modules (import/export)
--Basic Git & GitHub:- for version control
--Node.js & npm/yarn:- for package management
+✅HTML, CSS, and JavaScript (ES6+):-
+✅JavaScript Concepts::-
+  ✅ Arrow functions
+  ✅ Destructuring
+  ✅ Spread & Rest operators
+  ✅ Promises & Async/Await
+  ✅ Fetch API
+  ✅ Modules (import/export)
+✅Basic Git & GitHub:- for version control
+✅Node.js & npm/yarn:- for package management
 
 📑2. Setting Up Your React Environment:-
 
-- InstallNode.js:- and npm (Node Package Manager)
-- Install a code editor (VS Code recommended)
-- Create a new React app using Create React App:
-      npx create-react-app my-app
-      cd my-app
-      npm start
+✅ InstallNode.js:- and npm (Node Package Manager)
+✅ Install a code editor (VS Code recommended)
+✅ Create a new React app using Create React App:
 
 
 📑3. Understanding React Basics:-
 
-- What is React?  ( Framework / Library ) 
-- React vs. Vanilla JavaScript 
-- React Components (Functional & Class Components) ---
-- JSX (JavaScript XML)
-- Props & State
-- Handling Events in React
+✅ What is React?  ( Framework / Library ) 
+✅ React vs. Vanilla JavaScript 
+✅ React Components (Functional & Class Components) 
+✅ JSX (JavaScript XML)
+✅ Props & State
+✅ Handling Events in React
 - Conditional Rendering
 - Lists & Keys
 - Forms & Controlled Components
