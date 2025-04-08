@@ -6,31 +6,58 @@ import Javascript from './Javascript';
 import Other from './Other';
 function App() {
   var [count,setCount] = useState("");
+  function newData(event){
+    console.log(event.target);
+    if(event.target.innerHTML=="HTML"){
+      event.target.classList.add('active');
+      document.querySelector('.b').classList.remove('active');
+      document.querySelector('.c').classList.remove('active');
+      document.querySelector('.d').classList.remove('active');
+    }
+    else if(event.target.innerHTML=="CSS"){
+      event.target.classList.add('active');
+      document.querySelector('.a').classList.remove('active');
+      document.querySelector('.c').classList.remove('active');
+      document.querySelector('.d').classList.remove('active');
+    }
+    else if(event.target.innerHTML=="JavaScript"){
+      event.target.classList.add('active');
+      document.querySelector('.b').classList.remove('active');
+      document.querySelector('.a').classList.remove('active');
+      document.querySelector('.d').classList.remove('active');
+    }
+    else if(event.target.innerHTML=="Other"){
+      event.target.classList.add('active');
+      document.querySelector('.b').classList.remove('active');
+      document.querySelector('.c').classList.remove('active');
+      document.querySelector('.a').classList.remove('active');
+    }
+  }
   return (
     <>
-      <div class="navbar">
-        <div class="logo">My Web Project</div>
-        <div class="languages">
-          <span onClick={()=>{setCount(count="HTML")}}>HTML: 40%</span>
-          <span onClick={()=>{setCount(count="CSS")}}>CSS: 30%</span>
-          <span onClick={()=>{setCount(count="JAVASCRIPT")}}>JavaScript: 25%</span>
-          <span onClick={()=>{setCount(count="OTHERS")}}>Other: 5%</span>
+      <div className="navbar">
+        <div className="logo">My Web Project</div>
+        <div className="languages" onClick={(event)=>{newData(event)}} >
+          <span className='a' onClick={(event)=>{setCount(count="HTML")}}>HTML</span>
+          <span className='b' onClick={(event)=>{setCount(count="CSS")}}>CSS</span>
+          <span className='c' onClick={(event)=>{setCount(count="JAVASCRIPT")}}>JavaScript</span>
+          <span className='d' onClick={(event)=>{setCount(count="OTHERS")}}>Other</span>
         </div>
       </div>
 
-      <div class="layout">
+      <div className="layout">
 
-        <div class="sidebar">
+        <div className="sidebar">
   
           <ul>
-            <li><a href="#">HTML</a></li>
+            <li ><a href="#">HTML</a></li>
             <li><a href="#">CSS</a></li>
             <li><a href="#">JAVASCRIPT</a></li>
             <li><a href="#">OTHERS</a></li>
           </ul>
         </div>
 
-        <div class="main-content">
+        <div className="main-content">
           {count === "HTML" && <Html />}
           {count === "CSS" && <Css />}
           {count === "JAVASCRIPT" && <Javascript />}
