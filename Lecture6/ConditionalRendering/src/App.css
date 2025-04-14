@@ -49,24 +49,16 @@ body {
   width: 200px;
   background-color: #ecf0f1;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .sidebar h3 {
   margin-bottom: 10px;
 }
 
-.sidebar ul {
-  list-style: none;
-}
 
-.sidebar ul li {
-  margin: 10px 0;
-}
-
-.sidebar ul li a {
-  text-decoration: none;
-  color: #2c3e50;
-}
 
 /* Main Content */
 .main-content {
@@ -89,3 +81,8 @@ span{
 .active{
   background-color: lightseagreen !important;
 }
+
+.active2{
+  background-color: lightseagreen !important;
+}
+

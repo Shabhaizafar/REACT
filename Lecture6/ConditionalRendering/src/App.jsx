@@ -33,6 +33,7 @@ function App() {
       document.querySelector('.a').classList.remove('active');
     }
   }
+ 
   return (
     <>
       <div className="navbar">
@@ -47,14 +48,14 @@ function App() {
 
       <div className="layout">
 
-        <div className="sidebar">
+        <div className="sidebar" onClick={(event)=>{newData(event)}} >
   
-          <ul>
-            <li ><a href="#">HTML</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">JAVASCRIPT</a></li>
-            <li><a href="#">OTHERS</a></li>
-          </ul>
+        
+          <span className='e' onClick={(event)=>{setCount(count="HTML")}}>HTML</span>
+          <span className='b' onClick={(event)=>{setCount(count="CSS")}}>CSS</span>
+          <span className='c' onClick={(event)=>{setCount(count="JAVASCRIPT")}}>JavaScript</span>
+          <span className='d' onClick={(event)=>{setCount(count="OTHERS")}}>Other</span>
+        
         </div>
 
         <div className="main-content">
@@ -63,6 +64,8 @@ function App() {
           {count === "JAVASCRIPT" && <Javascript />}
           {count === "OTHERS" && <Other />}
         </div>
+
+        
 
       </div>
 

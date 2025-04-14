@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       {/* <Data/> */}
-      <Form/>
+      <Form />
     </>
   )
 }
