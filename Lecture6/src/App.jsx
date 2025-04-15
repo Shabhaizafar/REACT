@@ -3,7 +3,8 @@ import { useState } from 'react';
 import BioData from './BioData';
 import False from './False';
 import LastConditional from './LastConditional';
-import List from './List';
+import ObjectList from './ObjectList';
+// import List from './List';
 function App() {
   // var [count, setCount] = useState();
   return (
@@ -14,7 +15,9 @@ function App() {
       <h2>Count : {count}</h2> */}
       {/* {(count==1)? <BioData/> : (count==0) ? <False/> : "" } */}
       {/* <LastConditional value={"wer"}/> */}
-      <List/>
+      {/* <List/> */}
+
+      <ObjectList/>
     </>
   )
 };
